@@ -9,11 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>neuefische.de</groupId>
-    <artifactId>backend</artifactId>
+    <artifactId>fullStackProject_backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>backend</name>
+    <name>fullStackProject_backend</name>
     <description>backend</description>
     <properties>
+            <sonar.organization>crishodel</sonar.organization>
+            <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <java.version>17</java.version>
     </properties>
     <dependencies>
